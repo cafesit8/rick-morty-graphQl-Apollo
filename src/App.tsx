@@ -10,8 +10,8 @@ function App () {
     <Suspense fallback={<MainLoading />}>
       <Routes>
         <Route element={<Root />}>
-          <Route path='/' element={<Home />} />
-          <Route path='/:id' element={<Character />} />
+          <Route path='/rick-morty-graphQl-Apollo' element={<Home />} />
+          <Route path='/rick-morty-graphQl-Apollo/:id' element={<Character />} />
         </Route>
       </Routes>
     </Suspense>
