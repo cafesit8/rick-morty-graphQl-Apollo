@@ -1,4 +1,4 @@
-import { FormEvent, useContext } from 'react'
+import { useContext } from 'react'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 import { ContextCharacter } from '../context/Context'
 import { BsSearch } from 'react-icons/bs'
