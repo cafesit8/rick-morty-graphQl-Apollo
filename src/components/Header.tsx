@@ -5,7 +5,7 @@ import { BsSearch } from 'react-icons/bs'
 
 export default function Header () {
   const { previousPage, nextPage, setWord, characterFound, data } = useContext(ContextCharacter)
-  const hanldeSubmit = (e: FormEvent<HTMLElement>) => {
+  const hanldeSubmit = (e: any) => {
     e.preventDefault()
     setWord(e.target.name.value.trim())
   }
