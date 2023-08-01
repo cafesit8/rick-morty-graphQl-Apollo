@@ -13,7 +13,7 @@ export default function Card ({ character }: CardProps) {
       </picture>
       <div className='w-full md:h-[20%] h-[30%] flex items-center justify-around px-1'>
         <h5 className='text-center md:text-[16px] text-[13px]'>{character.name}</h5>
-        <Link to={`/${character.id}`} className='bg-[#8234c3] cursor-pointer px-4 rounded-md'>Info</Link>
+        <Link to={`/rick-morty-graphQl-Apollo/${character.id}`} className='bg-[#8234c3] cursor-pointer px-4 rounded-md'>Info</Link>
       </div>
     </article>
   )
